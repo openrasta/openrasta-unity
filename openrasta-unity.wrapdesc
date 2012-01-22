@@ -1,0 +1,6 @@
+﻿name: openrasta-unity
+depends: openwrap anchored content
+depends: unity
+directory-structure: {scope: Tests=tests}
+depends: openrasta-core
+build: msbuild; project=src\OpenRasta.DI.Unity\OpenRasta.DI.Unity.csproj
